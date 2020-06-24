@@ -1,0 +1,79 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    http://wordpress.org
+ Description:  Twenty Twenty Child Theme
+ Author:       Dmitry Kovalenko
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.1
+ Text Domain:  twentytwentychild
+*/
+
+/* HOME */
+.post-meta-wrapper, .featured-media,
+.home article .section-inner {
+    display: none;
+}
+h2.entry-title {
+    font-size: 4.4rem;
+}
+h1, .heading-size-1 {
+    font-size: 3.4rem;
+}
+
+/* HEADER */
+.primary-menu {
+    font-family: 'Montserrat', sans-serif;
+}
+.primary-menu li {
+    font-size: 15px;
+}
+body:not(.overlay-header) .primary-menu-wrapper .primary-menu > li > a {
+    color: #1e1e1e;
+}
+
+/* FOOTER */
+#site-footer {
+    background: #1e1e1e;
+    border: none;
+    height: 180px;
+}
+#site-footer .section-inner {
+    align-items: center;
+    height: 100%;
+}
+.footer-credits {
+    align-items: center;
+}
+#site-footer .widget {
+    padding-right: 2vw;
+    margin-top: 0;
+}
+#site-footer .widget-content {
+    font-size: 11px;
+    color: #fff;
+}
+#site-footer .to-the-top {
+    background: url(img/arrow.png) no-repeat center right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 18px;
+}
+#site-footer .to-the-top .arrow {
+    display: none;
+}
+@media screen and (min-width: 1220px) {
+    .primary-menu > li {
+        margin: 0.8rem 0 0 5.93vw;
+    }
+}
+@media screen and (min-width: 700px) {
+    .section-inner {
+        width: 1170px;
+    }
+    .primary-menu > li {
+        margin: 0.8rem 0 0 5.937vw;
+    }
+}

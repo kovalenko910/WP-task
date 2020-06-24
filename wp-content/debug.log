@@ -1,0 +1,33 @@
+[24-Jun-2020 13:52:33 UTC] PHP Fatal error:  Uncaught Error: Array callback has to contain indices 0 and 1 in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php:58
+Stack trace:
+#0 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(287): load_more_posts_callback('')
+#1 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-admin/admin-ajax.php(175): do_action('wp_ajax_load_mo...')
+#4 {main}
+  thrown in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php on line 58
+[24-Jun-2020 13:53:31 UTC] PHP Fatal error:  Uncaught Error: Array callback has to contain indices 0 and 1 in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php:58
+Stack trace:
+#0 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(287): load_more_posts_callback('')
+#1 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-admin/admin-ajax.php(175): do_action('wp_ajax_load_mo...')
+#4 {main}
+  thrown in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php on line 58
+[24-Jun-2020 13:54:03 UTC] PHP Fatal error:  Uncaught Error: Array callback has to contain indices 0 and 1 in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php:58
+Stack trace:
+#0 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(287): load_more_posts_callback('')
+#1 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-admin/admin-ajax.php(175): do_action('wp_ajax_load_mo...')
+#4 {main}
+  thrown in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php on line 58
+[24-Jun-2020 14:19:12 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php:33
+Stack trace:
+#0 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(287): load_more_posts_javascript('')
+#1 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/general-template.php(2900): do_action('wp_footer')
+#4 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty/footer.php(58): wp_footer()
+#5 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/template.php(723): require_once('/Users/dmitryko...')
+#6 /Users/dmitrykovalenko/work/learning/server/htdocs/wp-includes/template.php(672): load_template('/Users/dmitryko...', tr in /Users/dmitrykovalenko/work/learning/server/htdocs/wp-content/themes/twentytwenty-child/functions.php on line 33
